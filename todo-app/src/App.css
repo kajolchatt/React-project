@@ -1,12 +1,10 @@
-h1 {
-    color: blue;
-}
+
 
 input {
     width: 100%;
 }
 
-.items-container {
+.col-6,.col-4 {
     text-align: left;
 }
 

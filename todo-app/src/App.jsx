@@ -16,6 +16,6 @@ function App() {
     </div>
 
   </center>
-}
+} 
 
 export default App; 

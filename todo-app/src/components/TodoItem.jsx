@@ -1,12 +1,12 @@
 function TodoItem(props) {
     return (
-        <div class="container ">
-            <div class="row kg-row">
-                <div class="col-6"><h4>{props.content}</h4></div>
-                <div class="col-4"><h5>{props.date}</h5></div>
-                <div class="col-2"><button type="button" class="btn btn-danger kg-button">Delete</button></div>
+        <div className="container ">
+            <div className="row kg-row">
+                <div className="col-6"><h4>{props.content}</h4></div>
+                <div className="col-4"><h5>{props.date}</h5></div>
+                <div className="col-2"><button type="button" className="btn btn-danger kg-button">Delete</button></div>
             </div>
 
         </div>);
-}
+} 
 export default TodoItem
