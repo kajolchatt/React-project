@@ -4,11 +4,11 @@ import { quotedata } from './components/quotedata';
 
 function App() {
 
-  const [data,setData]=useState(quotedata[0]);
-  let index=0
+  const [data,setData]=useState();
+  const[index,setIndex]=useState(0);
   const handleClick=()=>{
     let quote=quotedata[index];
-    index=(index+1)%quotedata.length;
+    setIndex(index!=quotedata.length-1?index+1%quotedata.length:0)
     setData(quote);
   }
   return (
